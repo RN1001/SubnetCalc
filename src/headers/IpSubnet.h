@@ -1,10 +1,8 @@
-#include <string>
-
 #ifndef IP_SUBNET_H
 #define IP_SUBNET_H
 
 struct IpSubnet {
-    std::string address;
+    int address = 0;
     int cidr;
 } ipSubnet;
 
