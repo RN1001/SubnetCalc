@@ -3,7 +3,7 @@
 #ifndef IP_CIDR_HOSTS_MAPS_H
 #define IP_CIDR_HOSTS_MAPS_H
 
-std::map<int, int> cidrHostsMapClassA = {
+std::map<int, int> maxHostsMapClassA = {
     {8, 16777216 },
     {9, 8388608 },
     {10, 4194304 },
@@ -29,7 +29,7 @@ std::map<int, int> cidrHostsMapClassA = {
     {30, 4 }
 };
 
-std::map<int, int> cidrHostsMapClassB = {
+std::map<int, int> maxHostsMapClassB = {
     {16, 65536 },
     {17, 32768 },
     {18, 16384 },
@@ -47,7 +47,7 @@ std::map<int, int> cidrHostsMapClassB = {
     {30, 4 }
 };
 
-std::map<int, int> cidrHostsMapClassC = {
+std::map<int, int> maxHostsMapClassC = {
     {24, 256 },
     {25, 128 },
     {26, 64 },

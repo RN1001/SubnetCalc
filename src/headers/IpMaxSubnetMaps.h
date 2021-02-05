@@ -1,9 +1,9 @@
 #include <map>
 
-#ifndef IP_MAX_HOSTS_MAPS_H
-#define IP_MAX_HOSTS_MAPS_H
+#ifndef IP_MAX_SUBNETS_MAPS_H
+#define IP_MAX_SUBNETS_MAPS_H
 
-std::map<int, int> cidrHostsMapClassA = {
+std::map<int, int> cidrMaxSubnetsMapClassA = {
     {8, 1 },
     {9, 2 },
     {10, 4 },
@@ -29,7 +29,7 @@ std::map<int, int> cidrHostsMapClassA = {
     {30, 4194304 }
 };
 
-std::map<int, int> cidrHostsMapClassB = {
+std::map<int, int> cidrMaxSubnetsMapClassB = {
     {16, 1 },
     {17, 2 },
     {18, 4 },
@@ -47,7 +47,7 @@ std::map<int, int> cidrHostsMapClassB = {
     {30, 16384 }
 };
 
-std::map<int, int> cidrHostsMapClassC = {
+std::map<int, int> cidrMaxSubnetsMapClassC = {
     {24, 1 },
     {25, 2 },
     {26, 4 },
@@ -57,4 +57,4 @@ std::map<int, int> cidrHostsMapClassC = {
     {30, 64 }
 };
 
-#endif // !IP_MAX_HOSTS_MAPS_H
+#endif // !IP_MAX_SUBNETS_MAPS_H
