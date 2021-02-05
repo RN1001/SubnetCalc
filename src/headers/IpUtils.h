@@ -1,3 +1,4 @@
+#include "Solution.h"
 #include <vector>
 
 #ifndef IP_UTILS_H
@@ -8,7 +9,7 @@ class SubnetUtils {
         void determineClass();
         int configureCidrMaxHosts(int cidr, char ipClass);
         int getNumberOfSubnets(int cidr, char IpClass);
-        void displaySubnetSolution(std::vector<int> octets, int maxHosts, int subnets);
+        std::vector<Solution> displaySubnetSolution(int octet, int maxHosts, int subnets);
 };
 
 #endif // !IP_UTILS_H
